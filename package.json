@@ -1,6 +1,6 @@
 {
   "name": "express-swagger-producer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generates swagger document & ui based documentation on express routes.",
   "main": "index.js",
   "scripts": {
