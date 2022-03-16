@@ -1,8 +1,10 @@
 ### Express Swagger Producer:
 
-This module is generated with the codes of [express-swagger-generator](https://npmjs.com/package/express-swagger-generator) which is currently not supporting TS environment or getting updates. This module supports TS environments. Whole package is converted into TypesScript. In addition to this, configuration of this library has one more feature. You can use openapi version key from now on.
+This module has same logic with [express-swagger-generator](https://npmjs.com/package/express-swagger-generator) library which currently doesn't support TS (TypeScript) environment or getting updates. This module is written with TS (TypeScript) and supports TS (TypeScript) environment. 
 
-You can visit [cangokceaslan.com](https://www.cangokceaslan.com ) for more details
+In addition to TypeScript environment support, this module has one more feature than express-swagger-generator. You can use swagger & openapi version keys with options as down below.
+
+You can visit [cangokceaslan.com](https://www.cangokceaslan.com) for more details
 
 #### Installation
 
