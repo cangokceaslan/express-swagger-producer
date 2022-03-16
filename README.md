@@ -14,7 +14,7 @@ npm i express-swagger-producer
 
 #### Usage
 
-```
+```javascript
 const express = require('express');
 const app = express();
 const ExpressSwaggerFn = require('express-swagger-producer');
@@ -57,7 +57,7 @@ You can find the swagger.json at http(s)://<app_host>:<app_port>/api-docs.json
 
 #### How to document the API
 
-```
+```javascript
 /**
  * This function comment is parsed by doctrine
  * @route GET /api
@@ -72,7 +72,7 @@ exports.foo = function() {}
 
 For model definitions:
 
-```
+```javascript
 /**
  * @typedef Product
  * @property {integer} id
