@@ -28,7 +28,7 @@ export function parseApiFile(file: any): any {
     return comments;
 }
 
-function parseRoute(str: string): any {
+function parseRoute(str: any): any {
     let split = str.split(" ")
 
     return {
@@ -37,7 +37,7 @@ function parseRoute(str: string): any {
     }
 }
 
-function parseField(str: string): any {
+function parseField(str: any): any {
     let split = str.split(".")
     return {
         name: split[0],
@@ -163,12 +163,12 @@ function parseTag(tags: any) {
     return ['default', '']
 }
 
-function parseProduces(str: string) {
+function parseProduces(str: any) {
     return str.split(/\s+/);
 }
 
 
-function parseConsumes(str: string) {
+function parseConsumes(str: any) {
     return str.split(/\s+/);
 }
 

@@ -123,7 +123,7 @@ function _getSwaggerSchemaWrongProperties() {
  * @param {string} propertyName - The swagger property name to check.
  * @returns {string} The updated propertyName if neccessary.
  */
-function _correctSwaggerKey(propertyName: string): any {
+function _correctSwaggerKey(propertyName: any): any {
 	let wrong = _getSwaggerSchemaWrongProperties();
 	if (wrong.indexOf(propertyName) > 0) {
 		// Returns the corrected property name.
