@@ -6,6 +6,8 @@ In addition to TypeScript environment support, this module has one more feature 
 
 You can visit [cangokceaslan.com](https://www.cangokceaslan.com) for more details
 
+<a href="https://www.buymeacoffee.com/cangokceaslan"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+
 #### Installation
 
 ```
